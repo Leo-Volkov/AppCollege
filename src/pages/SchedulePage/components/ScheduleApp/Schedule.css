@@ -1,5 +1,5 @@
 .flex {
-	display: flex;
+  display: flex;
 }
 td {
   margin: 0;
@@ -7,13 +7,13 @@ td {
 }
 
 .NumeLess {
-	width: 120px;
-	.Nume {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 40px;
-	}
+  width: 120px;
+  .Nume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
 }
 
 .LessGryp {
@@ -23,15 +23,14 @@ td {
   border: 3px solid black;
 }
 
-
 .flex_center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .LessGryp .flex {
-  display: flex; 
+  display: flex;
 }
 
 .LessGryp .flex_center {
