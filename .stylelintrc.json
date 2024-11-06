@@ -17,5 +17,8 @@
 
     "scss/at-extend-no-missing-placeholder": true,
     "scss/dollar-variable-pattern": "^([a-z][a-zA-Z0-9]+)$"
+  },
+  "atRules": {
+    "tailwind": true
   }
 }

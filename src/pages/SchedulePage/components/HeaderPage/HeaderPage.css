@@ -1,0 +1,52 @@
+.flex {
+	display: flex;
+}
+
+header {
+  margin: 15px 15px 10px 15px;
+
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.logo {
+	h1 {
+		line-height: 40px;
+		color: blue;
+		font-size: 50px;
+		font-weight: 700;
+		span {
+			font-size: 30px;
+			font-weight: 500;
+		}
+	}
+}
+
+.time h2 {
+	font-size: 50px;
+}
+
+.data {
+  line-height: 40px;
+	flex-direction: column;
+	width: 400px;
+
+	.weekday {
+		text-align: left;
+		font-size: 40px;
+	}
+	.day {
+		text-align: right;
+		font-size: 30px;
+	}
+}
+
+
+

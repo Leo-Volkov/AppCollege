@@ -1,0 +1,55 @@
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Нормализация стилей */
+html {
+  line-height: 1.15; /* Устраняет разрывы между строками */
+  -webkit-text-size-adjust: 100%; /* Запрещает изменение размера текста на мобильных устройствах */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Задаем стандартный шрифт */
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Нормализация заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Устранение подчеркивания у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Базовые стили для списков */
+ul, ol {
+  list-style: none;
+}
+
+/* Таблицы */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Изображения */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
