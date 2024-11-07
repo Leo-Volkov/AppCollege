@@ -3,7 +3,7 @@ import './CartNumLess.css'
 export default function CartNumLess({numLess}) {
   return (
     <div className="NumeLess">
-      <p className="Nume">{numLess}</p>
+      <div className="Nume">{numLess}</div>
     </div>
   );
 }

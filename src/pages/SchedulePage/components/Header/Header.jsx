@@ -9,8 +9,6 @@ import './Header.css';
 export default function Header() {
   const [date, setDate] = useState(new Date());
   setInterval(() => setDate(new Date()), 1000);
-  console.log(useTime(date));
-
   return (
     <div className="header">
       <div className="logo col_1">

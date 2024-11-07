@@ -5,16 +5,20 @@ export default function ColGryp({ scheduleGryp }) {
   return (
     <>
       <div className="NameGryp flex_center">
-        <p>{scheduleGryp.grup}</p>
+        <h2>{scheduleGryp.grup}</h2>
       </div>
-      <div>
+      <div className="LessGryp_content">
         {scheduleGryp.lesses.map((el, i) => {
           return (
             <div className="less_cart" key={i}>
-              <h4>{el.less}</h4>
+              <h3 className="less_Name">{el.less}</h3>
               <div className="dop_inf">
-                <p>{el.lecturer}</p>
-                <p>{el.cabinet}</p>
+                <div>
+                  <p className='lecturer'>{el.lecturer}</p>
+                </div>
+                <div>
+                  <p className='cabinet'>{el.cabinet}</p>
+                </div>
               </div>
             </div>
           );
