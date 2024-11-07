@@ -1,15 +1,18 @@
-import React from "react";
-// import { useState } from 'react'
-import "./SchedulePage.css";
+import React from 'react';
+import './SchedulePage.css';
 
-import HeaderPage from "./components/HeaderPage/HeaderPage.jsx";
-import ScheduleApp from "./components/ScheduleApp/Schedule.jsx";
+import HeaderPage from './components/Header/Header.jsx';
+import ScheduleApp from './components/Schedule/Schedule.jsx';
 export default function SchedulePage() {
   return (
     <div>
-      <HeaderPage />
+      <header>
+        <HeaderPage />
+      </header>
       <div className="line"></div>
-      <ScheduleApp />
+      <main>
+        <ScheduleApp />
+      </main>
     </div>
   );
 }
