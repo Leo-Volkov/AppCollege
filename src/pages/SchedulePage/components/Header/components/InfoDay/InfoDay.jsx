@@ -1,8 +1,10 @@
-import React from 'react';
-
 import { dayFormat, dayName } from '../../helpers/Day.js';
 import './InfoDay.css';
+import PropTypes from 'prop-types';
 
+InfoDay.propTypes = {
+  date: PropTypes.object,
+};
 export default function InfoDay({ date }) {
   return (
     <div className="Date">

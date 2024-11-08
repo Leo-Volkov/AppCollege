@@ -1,5 +1,9 @@
-import React from 'react';
 import './ColGryp.css';
+import PropTypes from 'prop-types';
+
+ColGryp.propTypes = {
+  scheduleGryp: PropTypes.object,
+};
 
 export default function ColGryp({ scheduleGryp }) {
   return (
@@ -14,10 +18,10 @@ export default function ColGryp({ scheduleGryp }) {
               <h3 className="less_Name">{el.less}</h3>
               <div className="dop_inf">
                 <div>
-                  <p className='lecturer'>{el.lecturer}</p>
+                  <p className="lecturer">{el.lecturer}</p>
                 </div>
                 <div>
-                  <p className='cabinet'>{el.cabinet}</p>
+                  <p className="cabinet">{el.cabinet}</p>
                 </div>
               </div>
             </div>

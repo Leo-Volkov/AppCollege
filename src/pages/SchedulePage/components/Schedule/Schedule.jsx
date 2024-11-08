@@ -1,5 +1,4 @@
-import React, { useMemo } from 'react';
-import { useEffect, useState } from 'react';
+import { useMemo, useState } from 'react';
 import ColGryp from './components/ColGryp/ColGryp';
 import CartNumLess from './components/CartNumLess/CartNumLess.jsx';
 import useSortScheduleDey from '../../hook/useSortSchedule.js';
@@ -33,7 +32,7 @@ export default function ScheduleApp() {
         return filteredNumGrup;
       });
     }, 7000);
-  }, []);
+  }, [scheduleDey.length]);
 
   return (
     <div className="Schedule_content">

@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState } from 'react';
 import logoks54 from './assets/logoks542.png';
 
 import Time from './components/Time/Time.jsx';
 import InfoDay from './components/InfoDay/InfoDay.jsx';
-import useTime from './helpers/Time.js';
 import './Header.css';
 
 export default function Header() {

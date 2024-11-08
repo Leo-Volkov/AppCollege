@@ -30,7 +30,6 @@
 section {
   height: 100%;
   width: 96%;
-
 }
 
 .flex_center {
@@ -38,5 +37,3 @@ section {
   justify-content: center;
   align-items: center;
 }
-
-
