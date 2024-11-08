@@ -17,7 +17,7 @@ export default function ScheduleApp() {
     const interval = setInterval(() => {
       setNumGrup((prevNumGrup) => {
         let newArr = prevNumGrup.map((num) => {
-          const nextNum = num + 3; // добавляем 3+1, как в вашем коде
+          const nextNum = num + 3;
           return nextNum < scheduleDey.length ? nextNum : null;
         });
   
@@ -34,8 +34,6 @@ export default function ScheduleApp() {
   
     return () => clearInterval(interval);
   }, [scheduleDey.length]);
-
-console.log(numGrup);
 
 
   return (
