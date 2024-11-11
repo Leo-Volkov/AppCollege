@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logoks54 from './assets/logoks542.png';
 
 import Time from './components/Time/Time.jsx';
@@ -7,7 +7,14 @@ import './Header.css';
 
 export default function Header() {
   const [date, setDate] = useState(new Date());
-  setInterval(() => setDate(new Date()), 1000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDate(new Date())
+    }, 1000);
+
+    // Clear the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="header">
       <div className="logo col_1">

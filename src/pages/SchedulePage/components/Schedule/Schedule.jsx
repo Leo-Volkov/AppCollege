@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import ColGryp from './components/ColGryp/ColGryp';
 import CartNumLess from './components/CartNumLess/CartNumLess.jsx';
 import useSortScheduleDey from '../../hook/useSortSchedule.js';
@@ -11,11 +11,13 @@ import scheduleJSON from '../../../../../schedule.json';
 
 export default function ScheduleApp() {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const scheduleDey = useMemo(() => [...scheduleJSON.scheduleDey], []);
+  //Нужно автоматизировать, добавить кастомный хук который достаёт определённый день
+  const scheduleDey = useMemo(() => [...scheduleJSON.ScheduleWeek[0].ScheduleDay], []);
+  //
   const [numGrup, setNumGrup] = useState([0, 1, 2]);
 
-  useMemo(() => {
-    setInterval(() => {
+  useEffect(() => {
+    const interval = setInterval(() => {
       setNumGrup((prevNumGrup) => {
         let newArr = prevNumGrup.map((num) => {
           const nextNum = num + 3;
@@ -32,7 +34,9 @@ export default function ScheduleApp() {
         return filteredNumGrup;
       });
     }, 7000);
-  }, [scheduleDey.length]);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="Schedule_content">
@@ -49,7 +53,7 @@ export default function ScheduleApp() {
         {useSortScheduleDey(scheduleDey, numGrup).map((el) => {
           return (
             <motion.section
-              key={el.grup}
+              key={el.group}
               initial={{ opacity: 0.5, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0.4, scale: 0.8 }}

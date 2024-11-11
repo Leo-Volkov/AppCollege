@@ -9,19 +9,19 @@ export default function ColGryp({ scheduleGryp }) {
   return (
     <>
       <div className="NameGryp flex_center">
-        <h2>{scheduleGryp.grup}</h2>
+        <h2>{scheduleGryp.group}</h2>
       </div>
       <div className="LessGryp_content">
-        {scheduleGryp.lesses.map((el, i) => {
+        {scheduleGryp.subjects.map((el, i) => {
           return (
             <div className="less_cart" key={i}>
-              <h3 className="less_Name">{el.less}</h3>
+              <h3 className="less_Name">{el.subject}</h3>
               <div className="dop_inf">
                 <div>
-                  <p className="lecturer">{el.lecturer}</p>
+                  <p className="lecturer">{el.teacher}</p>
                 </div>
                 <div>
-                  <p className="cabinet">{el.cabinet}</p>
+                  <p className="cabinet">{el.classroom}</p>
                 </div>
               </div>
             </div>
