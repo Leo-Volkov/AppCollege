@@ -64,3 +64,20 @@
 }
 
 
+
+.lesson {
+  transition: all 0.3s ease;
+}
+
+.lesson.active {
+  border-color: orange;
+}
+
+.lesson.break_1 {
+  border-bottom-color: orange;
+} 
+
+.lesson.break_2 {
+  border-top-color: orange;
+}
+
