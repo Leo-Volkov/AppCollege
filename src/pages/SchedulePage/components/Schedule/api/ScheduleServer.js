@@ -9,8 +9,7 @@ export default class ScheduleServer {
       const response = scheduleJSON.ScheduleWeek
       return response
     } catch (error) {
-      //Этот блок кода выполнится
-      //в случае воизнокновение ошибки 
+      console.log("Error:  " + error);
     }
     
   }

@@ -1,19 +1,20 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 
 
 function useScheduleDay(date, scheduleWeek) {
-  const [scheduleDay, setScheduleDay] = useState([]);
+  const scheduleDayRef = useRef(null);
   const [isDayOff, setIsDayOff] = useState(false);
-
+  
   useMemo(() => {
     const today = date.getDay();
     if (1 <= today && today <= 6) {
-      setScheduleDay([...scheduleWeek[today - 1].ScheduleDay]);
+      scheduleDayRef.current = [...scheduleWeek[today - 1].ScheduleDay];
     } else {
       setIsDayOff(true);
     }
-  }, [date]);
-
+  }, [date, scheduleWeek]);
+  
+  const scheduleDay =scheduleDayRef.current
   return { scheduleDay, isDayOff };
 }
 

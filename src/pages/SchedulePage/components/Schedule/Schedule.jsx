@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 import ColGryp from './components/ColGryp/ColGryp';
@@ -18,13 +18,13 @@ export default function ScheduleApp(props) {
 
   const scheduleWeek = ScheduleServer.getWeek();
   const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
-  const [groupNumbers, setGroupNumbers] = useState([0, 1, 2]);
-  const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
-  
+  const groupNumbersRef = useRef([0, 1, 2]);
+  const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbersRef.current);
+
   useEffect(() => {
+    
     const interval = setInterval(() => {
-      setGroupNumbers((prevNumGrup) => {
-        let newArr = prevNumGrup.map((num) => {
+        let newArr = groupNumbersRef.current.map((num) => {
           const nextNum = num + 3;
           return nextNum < scheduleDay.length ? nextNum : null;
         });
@@ -36,10 +36,74 @@ export default function ScheduleApp(props) {
 
         // Фильтруем значения, чтобы выводить только те, которые не равны null
         let filteredNumGrup = newArr.filter((num) => num !== null);
-        return filteredNumGrup;
-      });
+        groupNumbersRef.current = filteredNumGrup;
     }, 7000);
 
+    return () => clearInterval(interval);
+  }, [scheduleDay.length]);
+
+  // //////////////////////////////////////////////////////////////////////////////
+  const [currentLesson, setCurrentLesson] = useState(null);
+  const [numBreak, setNumBreak] = useState(null);
+
+  const nowRef = useRef(new Date());
+
+  const timetableRef = useRef([]);
+
+  function proverca(currentDay) {
+    const newTimetable = currentDay === 6 ? [
+      { start_Lesson: 540, end_Lesson: 585 },
+      { start_Lesson: 595, end_Lesson: 640 },
+      { start_Lesson: 660, end_Lesson: 705 },
+      { start_Lesson: 715, end_Lesson: 760 },
+      { start_Lesson: 770, end_Lesson: 815 },
+      { start_Lesson: 825, end_Lesson: 870 },
+      { start_Lesson: 880, end_Lesson: 925 },
+      { start_Lesson: 935, end_Lesson: 980 },
+      { start_Lesson: 990, end_Lesson: 1035 },
+      { start_Lesson: 1045, end_Lesson: 1090 }
+    ] : [
+      { start_Lesson: 540, end_Lesson: 585 },
+      { start_Lesson: 595, end_Lesson: 640 },
+      { start_Lesson: 660, end_Lesson: 705 },
+      { start_Lesson: 715, end_Lesson: 760 },
+      { start_Lesson: 780, end_Lesson: 825 },
+      { start_Lesson: 845, end_Lesson: 890 },
+      { start_Lesson: 910, end_Lesson: 955 },
+      { start_Lesson: 965, end_Lesson: 1010 },
+      { start_Lesson: 1020, end_Lesson: 1065 },
+      { start_Lesson: 1075, end_Lesson: 1120 },
+      { start_Lesson: 1130, end_Lesson: 1175 }
+    ];
+  
+    timetableRef.current = newTimetable;
+  }
+  
+  useEffect(() => {
+    proverca(nowRef.current.getDay());
+  
+    const checkTime = () => {
+      nowRef.current = (new Date());
+      const currentTime = nowRef.current.getHours() * 60 + nowRef.current.getMinutes();
+      // const currentTime = 660; // Используем для тестирования      
+      
+      timetableRef.current.forEach((lesson, index) => {
+        const startTime = lesson.start_Lesson;
+        const endTime = lesson.end_Lesson;
+  
+        if (currentTime >= startTime && currentTime <= endTime) {
+          setCurrentLesson(index + 1);
+          setNumBreak(null);
+        } else if (currentTime > endTime) {
+          setNumBreak(index + 1);
+          setCurrentLesson(null);
+        }
+      });
+    };
+  
+    checkTime();
+    const interval = setInterval(checkTime, 1000);
+  
     return () => clearInterval(interval);
   }, []);
 
@@ -63,7 +127,7 @@ export default function ScheduleApp(props) {
               exit={{ opacity: 0.4, scale: 0.8 }}
               transition={{ duration: 2, ease: 'easeInOut' }}
             >
-              <ColGryp scheduleGryp={el} />
+              <ColGryp scheduleGryp={el} currentLesson={currentLesson} numBreak={numBreak} />
             </motion.section>
           ))
         ) : (
