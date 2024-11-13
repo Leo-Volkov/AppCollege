@@ -17,11 +17,13 @@ export default function ColGryp({ scheduleGryp }) {
             <div className="less_cart" key={i}>
               <h3 className="less_Name">{el.subject}</h3>
               <div className="dop_inf">
-                <div>
-                  <p className="lecturer">{el.teacher}</p>
+                <div className="lecturer">
+                  <div>
+                    <p>{el.teacher}</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="cabinet">{el.classroom}</p>
+                <div className="cabinet">
+                  <p>{el.classroom}</p>
                 </div>
               </div>
             </div>

@@ -1,20 +1,17 @@
-import { useState, useEffect } from 'react';
 import logoks54 from './assets/logoks542.png';
 
 import Time from './components/Time/Time.jsx';
 import InfoDay from './components/InfoDay/InfoDay.jsx';
 import './Header.css';
+import PropTypes from 'prop-types';
 
-export default function Header() {
-  const [date, setDate] = useState(new Date());
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDate(new Date())
-    }, 1000);
+Header.propTypes = {
+  date: PropTypes.object.isRequired,
+};
 
-    // Clear the interval when the component unmounts
-    return () => clearInterval(interval);
-  }, []);
+export default function Header(props) {
+  const { date } = props;
+  
   return (
     <div className="header">
       <div className="logo col_1">

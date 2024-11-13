@@ -224,6 +224,1131 @@
           ]
         }
       ]
+    },
+    {
+      "day_number": 2,
+      "ScheduleDay": [
+        {
+          "group": "2-ИСП9-40",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-41",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-42",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-43",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_number": 3,
+      "ScheduleDay": [
+        {
+          "group": "3-ИСП9-40",
+          "subjects": [
+            {
+              "subject": "УП.01 ДУП.01 Выполнение работ 19806 Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П, Сафонjjjjhghggggggов.Н.П",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "История",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П, Сафонjjjjhghggggggов.Н.П",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-41",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-42",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-43",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_number": 4,
+      "ScheduleDay": [
+        {
+          "group": "2-ИСП9-40",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-41",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-42",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-43",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_number": 5,
+      "ScheduleDay": [
+        {
+          "group": "2-ИСП9-40",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-41",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-42",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-43",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_number": 6,
+      "ScheduleDay": [
+        {
+          "group": "2-ИСП9-40",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-41",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-42",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        },
+        {
+          "group": "2-ИСП9-43",
+          "subjects": [
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "101"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "История",
+              "teacher": "Бабаханов Ш.Т.",
+              "classroom": "206"
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            },
+            {
+              "subject": "",
+              "teacher": "",
+              "classroom": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
