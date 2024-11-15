@@ -16,7 +16,7 @@ export function useGroupNumbers(scheduleDayLength) {
       }
 
       groupNumbersRef.current = newArr.filter((num) => num !== null);
-    }, 7000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [scheduleDayLength]);
