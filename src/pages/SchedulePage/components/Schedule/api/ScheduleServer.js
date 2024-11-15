@@ -8,7 +8,7 @@ export default class ScheduleServer {
 
         // Тайм-аут на случай зависания
         timeout = setTimeout(() => {
-          reject(new Error("Request timed out"));
+          reject(new Error('Request timed out'));
           sse.close();
         }, 10000); // 10 секунд
 
@@ -18,7 +18,7 @@ export default class ScheduleServer {
           try {
             const parsedData = JSON.parse(event.data);
             if (!parsedData || !parsedData.ScheduleWeek) {
-              throw new Error("Invalid data format");
+              throw new Error('Invalid data format');
             }
             const res = parsedData.ScheduleWeek;
             console.log(res);
@@ -34,20 +34,20 @@ export default class ScheduleServer {
         sse.onerror = (err) => {
           console.error('Error: ', err);
           clearTimeout(timeout); // Убираем тайм-аут
-          const cachedData = localStorage.getItem("localScheduleJSON");
+          const cachedData = localStorage.getItem('localScheduleJSON');
           if (cachedData) {
             try {
               const parsedData = JSON.parse(cachedData);
               if (parsedData && Array.isArray(parsedData)) {
                 resolve(parsedData); // Возвращаем кэшированные данные
               } else {
-                throw new Error("Cached data is invalid");
+                throw new Error('Cached data is invalid');
               }
             } catch (parseErr) {
-              reject(new Error("Failed to parse cached data: " + parseErr));
+              reject(new Error('Failed to parse cached data: ' + parseErr));
             }
           } else {
-            reject(new Error("No cached data available and connection failed"));
+            reject(new Error('No cached data available and connection failed'));
           }
           sse.close(); // Закрываем соединение
         };

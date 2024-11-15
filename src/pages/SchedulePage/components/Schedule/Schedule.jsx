@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
@@ -17,10 +17,12 @@ export default function ScheduleApp({ date }) {
   const [scheduleWeek, setScheduleWeek] = useState([]);
   const [error, setError] = useState(null);
   
-  useEffect(() => {
-    const fetchData = async () => {
+  useMemo(() => {    
+    const fetchData =  async () => {
+      const data = await ScheduleServer.getWeek();
       try {
-        const data = await ScheduleServer.getWeek();
+        console.log(data);
+        
         setScheduleWeek(data);
       } catch (err) {
         console.error('Failed to fetch schedule:', err);
@@ -30,6 +32,7 @@ export default function ScheduleApp({ date }) {
 
     fetchData();
   }, []);
+  
 
   const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
   const groupNumbers = useGroupNumbers(scheduleDay.length);
