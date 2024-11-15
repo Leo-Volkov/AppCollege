@@ -1,4 +1,3 @@
-
 export default class ScheduleServer {
   static getWeek() {
     try {

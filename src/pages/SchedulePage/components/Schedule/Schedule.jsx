@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useMemo } from 'react';
 import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
@@ -13,8 +14,8 @@ import ScheduleServer from './api/ScheduleServer.js';
 
 export default function ScheduleApp({ date }) {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const scheduleWeek = ScheduleServer.getWeek();
-  const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
+  const scheduleWeek = useMemo(() => ScheduleServer.getWeek(), []); 
+   const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
   
   const groupNumbers = useGroupNumbers(scheduleDay.length);
   const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
