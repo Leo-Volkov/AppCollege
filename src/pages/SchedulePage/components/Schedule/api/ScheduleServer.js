@@ -1,7 +1,7 @@
 export default class ScheduleServer {
   static getWeek() {
     try {
-      const response = [];
+      let response = [];
       const sse = new EventSource('http://localhost:8080/schedule');
 
       sse.onopen = () => console.log('>>> Connection opened!');
@@ -10,9 +10,9 @@ export default class ScheduleServer {
       sse.onmessage = (event) => {
         const res = event.data.ScheduleWeek;
         console.log(res);
+        response = res;
       };
       //   localStorage.setItem('localScheduleJSON', `${res}`);
-      //   response = res;
       // };
 
       // // Обработка ошибок
