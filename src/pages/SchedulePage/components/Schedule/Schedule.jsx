@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
@@ -14,13 +14,37 @@ import ScheduleServer from './api/ScheduleServer.js';
 
 export default function ScheduleApp({ date }) {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const scheduleWeek = useMemo(() => ScheduleServer.getWeek(), []); 
-   const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
-  
+  const [scheduleWeek, setScheduleWeek] = useState(null);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await ScheduleServer.getWeek();
+        setScheduleWeek(data);
+      } catch (err) {
+        console.error('Failed to fetch schedule:', err);
+        setError(err.message || 'Failed to load schedule');
+      }
+    };
+
+    fetchData();
+  }, []);
+  const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
   const groupNumbers = useGroupNumbers(scheduleDay.length);
   const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
-  
   const { currentLesson, numBreak } = useTimetable();
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (!scheduleWeek) {
+    return <div>Loading...</div>;
+  }
+  
+
+
 
   return (
     <div className="Schedule_content">
@@ -51,7 +75,6 @@ export default function ScheduleApp({ date }) {
     </div>
   );
 }
-
 
 import PropTypes from 'prop-types';
 ScheduleApp.propTypes = {
