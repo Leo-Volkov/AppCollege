@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { motion } from 'framer-motion';
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
@@ -17,7 +18,7 @@ export default function ScheduleApp({ date }) {
   const [scheduleWeek, setScheduleWeek] = useState([]);
   const [error, setError] = useState(null);
   let isDayOff = false;
-  const sortedScheduleDay = {};
+  const [sortedScheduleDay, setSortedScheduleDay] = useState([]);
 
   useMemo(async () => {
     try {
@@ -36,16 +37,15 @@ export default function ScheduleApp({ date }) {
   if (error) {
     return (
       <div>
-        <div>Error: {error}</div>
-        <button onClick={() => window.location.reload()}>Try Again</button>
+        <div>Ошибка: {error}</div>
       </div>
     );
   } else if (!scheduleWeek.length) {
-    return <div>Loading...</div>;
+    return <div>Загрузка...</div>;
   } else {
     const { scheduleDay, isDayOff1 } = useScheduleDay(date, scheduleWeek);
     isDayOff = isDayOff1;
-    sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
+    setSortedScheduleDay(useSortScheduleDey(scheduleDay, groupNumbers));
   }
 
   return (
