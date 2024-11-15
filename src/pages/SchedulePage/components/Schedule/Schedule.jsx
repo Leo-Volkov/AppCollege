@@ -14,9 +14,9 @@ import ScheduleServer from './api/ScheduleServer.js';
 
 export default function ScheduleApp({ date }) {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const [scheduleWeek, setScheduleWeek] = useState(null);
+  const [scheduleWeek, setScheduleWeek] = useState([]);
   const [error, setError] = useState(null);
-
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -30,22 +30,25 @@ export default function ScheduleApp({ date }) {
 
     fetchData();
   }, []);
+
   const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
   const groupNumbers = useGroupNumbers(scheduleDay.length);
   const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
   const { currentLesson, numBreak } = useTimetable();
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return (
+      <div>
+        <div>Error: {error}</div>
+        <button onClick={() => window.location.reload()}>Try Again</button>
+      </div>
+    );
   }
 
-  if (!scheduleWeek) {
+  if (!scheduleWeek.length) {
     return <div>Loading...</div>;
   }
   
-
-
-
   return (
     <div className="Schedule_content">
       <div className="col_NumeLess_content">
