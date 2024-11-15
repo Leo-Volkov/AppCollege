@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
@@ -16,27 +16,21 @@ export default function ScheduleApp({ date }) {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [scheduleWeek, setScheduleWeek] = useState([]);
   const [error, setError] = useState(null);
-  
-  useMemo(() => {    
-    const fetchData =  async () => {
+  let isDayOff = false;
+  const sortedScheduleDay = {};
+
+  useMemo(async () => {
+    try {
       const data = await ScheduleServer.getWeek();
-      try {
-        console.log(data);
-        
-        setScheduleWeek(data);
-      } catch (err) {
-        console.error('Failed to fetch schedule:', err);
-        setError(err.message || 'Failed to load schedule');
-      }
-    };
-
-    fetchData();
+      console.log(data);
+      setScheduleWeek(data);
+    } catch (err) {
+      console.error('Failed to fetch schedule:', err);
+      setError(err.message || 'Failed to load schedule');
+    }
   }, []);
-  
 
-  const { scheduleDay, isDayOff } = useScheduleDay(date, scheduleWeek);
-  const groupNumbers = useGroupNumbers(scheduleDay.length);
-  const sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
+  const groupNumbers = useGroupNumbers(scheduleWeek.length);
   const { currentLesson, numBreak } = useTimetable();
 
   if (error) {
@@ -46,12 +40,14 @@ export default function ScheduleApp({ date }) {
         <button onClick={() => window.location.reload()}>Try Again</button>
       </div>
     );
+  } else if (!scheduleWeek.length) {
+    return <div>Loading...</div>;
+  } else {
+    const { scheduleDay, isDayOff1 } = useScheduleDay(date, scheduleWeek);
+    isDayOff = isDayOff1;
+    sortedScheduleDay = useSortScheduleDey(scheduleDay, groupNumbers);
   }
 
-  if (!scheduleWeek.length) {
-    return <div>Loading...</div>;
-  }
-  
   return (
     <div className="Schedule_content">
       <div className="col_NumeLess_content">
