@@ -41,7 +41,7 @@ export default function ScheduleApp({ date }) {
   }, [scheduleDay.length]);
 
   useMemo(async () => {
-    setScheduleWeek(await ScheduleServer.getWeek());
+   setScheduleWeek(await ScheduleServer.getWeek());
     console.log("2: " + scheduleWeek);
     const { newScheduleDay, newIsDayOff } = useScheduleDay(date, scheduleWeek);
     setScheduleDay(newScheduleDay);
