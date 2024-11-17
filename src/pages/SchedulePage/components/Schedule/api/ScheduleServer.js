@@ -7,12 +7,10 @@ export default class ScheduleServer {
         sse.onopen = () => console.log('>>> Connection opened!');
 
         sse.addEventListener('schedule', (event) => {
-          console.log('>>> Message received: ', event.data);
           const parsedData = JSON.parse(event.data);
           const res = parsedData.ScheduleWeek;
           localStorage.setItem('localScheduleJSON', JSON.stringify(res));
           resolve(res); // Возвращаем данные
-          sse.close(); // Закрываем соединение
         });
 
         sse.onerror = (err) => {
@@ -28,7 +26,6 @@ export default class ScheduleServer {
           } else {
             reject(new Error('Нет доступных кэшированных данных, и соединение не удалось'));
           }
-          sse.close(); // Закрываем соединение
         };
       } catch (error) {
         reject('Глобальная ошибка: ' + error); // Ловим глобальные ошибки

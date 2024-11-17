@@ -1,4 +1,3 @@
-// useGroupNumbers.js
 import { useRef, useEffect } from 'react';
 
 export function useGroupNumbers(scheduleDayLength) {

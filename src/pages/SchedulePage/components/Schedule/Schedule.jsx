@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { motion } from 'framer-motion';
-import { useState, useMemo } from 'react';
-import { useGroupNumbers } from './hooks/useGroupNumbers.js';
+import { useState, useMemo, useEffect, useRef } from 'react';
+// import { useGroupNumbers } from './hooks/useGroupNumbers.js';
 import { useTimetable } from './hooks/useTimetable.js';
 
 import ColGryp from './components/ColGryp/ColGryp';
@@ -17,21 +17,40 @@ export default function ScheduleApp({ date }) {
   const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [scheduleWeek, setScheduleWeek] = useState([]);
   const [error, setError] = useState(null);
-  let isDayOff = false;
+  const [scheduleDay, setScheduleDay] = useState([]);
+  const [isDayOff, setIsDayOff] = useState(false);
   const [sortedScheduleDay, setSortedScheduleDay] = useState([]);
 
+  const groupNumbersRef = useRef([0, 1, 2]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      let newArr = groupNumbersRef.current.map((num) => {
+        const nextNum = num + 3;
+        return nextNum < scheduleDay.length ? nextNum : null;
+      });
+
+      if (newArr[0] === null) {
+        newArr = [0, 1, 2];
+      }
+
+      groupNumbersRef.current = newArr.filter((num) => num !== null);
+    }, 8000);
+
+    return () => clearInterval(interval);
+  }, [scheduleDay.length]);
+
   useMemo(async () => {
-    try {
-      const data = await ScheduleServer.getWeek();
-      console.log(data);
-      setScheduleWeek(data);
-    } catch (err) {
-      console.error('Failed to fetch schedule:', err);
-      setError(err.message || 'Failed to load schedule');
-    }
+    const data = await ScheduleServer.getWeek();
+    setScheduleWeek(data);
+    const { newScheduleDay, newIsDayOff } = useScheduleDay(date, data);
+    setScheduleDay(newScheduleDay);
+    setIsDayOff(newIsDayOff);
   }, []);
 
-  const groupNumbers = useGroupNumbers(scheduleWeek.length);
+  useMemo(() => setSortedScheduleDay(useSortScheduleDey(scheduleDay, groupNumbersRef.current)), [scheduleDay, groupNumbersRef.current]);
+
+
   const { currentLesson, numBreak } = useTimetable();
 
   if (error) {
@@ -42,10 +61,6 @@ export default function ScheduleApp({ date }) {
     );
   } else if (!scheduleWeek.length) {
     return <div>Загрузка...</div>;
-  } else {
-    const { scheduleDay, isDayOff1 } = useScheduleDay(date, scheduleWeek);
-    isDayOff = isDayOff1;
-    setSortedScheduleDay(useSortScheduleDey(scheduleDay, groupNumbers));
   }
 
   return (
