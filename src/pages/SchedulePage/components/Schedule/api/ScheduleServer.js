@@ -8,6 +8,8 @@ export default class ScheduleServer {
 
         sse.addEventListener('schedule', (event) => {
           const parsedData = JSON.parse(event.data);
+          console.log(parsedData);
+          
           const res = parsedData.ScheduleWeek;
           localStorage.setItem('localScheduleJSON', JSON.stringify(res));
           resolve(res); // Возвращаем данные

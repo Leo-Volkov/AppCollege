@@ -4,7 +4,7 @@ function useScheduleDay(date, scheduleWeek) {
   let newIsDayOff = false;
 
   const today = date.getDay();
-  // const today = 5;
+  // const today = 2;
   if (1 <= today && today <= 6) {
     newScheduleDay = scheduleWeek[today - 1].ScheduleDay;
   } else {
