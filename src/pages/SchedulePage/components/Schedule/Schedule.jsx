@@ -41,14 +41,22 @@ export default function ScheduleApp({ date }) {
   }, [scheduleDay.length]);
 
   useMemo(async () => {
-   setScheduleWeek(await ScheduleServer.getWeek());
-    console.log("2: " + scheduleWeek);
-    const { newScheduleDay, newIsDayOff } = useScheduleDay(date, scheduleWeek);
-    setScheduleDay(newScheduleDay);
-    setIsDayOff(newIsDayOff);
+    await ScheduleServer.getWeek(setScheduleWeek, setError);
+  }, []);
+
+  useMemo(() => {
+    console.log('scheduleWeek', scheduleWeek);
+    
   }, [scheduleWeek]);
 
-  
+  useEffect(() => {
+    const { newScheduleDay, newIsDayOff } = useScheduleDay(date, scheduleWeek);
+    if (newScheduleDay !== scheduleDay) {
+      setScheduleDay(newScheduleDay);
+      setIsDayOff(newIsDayOff);
+    }
+  }, [date, scheduleWeek]);
+
   useMemo(() => setSortedScheduleDay(useSortScheduleDey(scheduleDay, groupNumbersRef.current)), [scheduleDay, groupNumbersRef.current]);
 
 

@@ -1,5 +1,5 @@
 export default class ScheduleServer {
-  static async getWeek() {
+  static async getWeek(setScheduleWeek, setError) {
     return new Promise((resolve, reject) => {
       try {
         const sse = new EventSource('http://localhost:8080/schedule');
@@ -8,11 +8,10 @@ export default class ScheduleServer {
 
         sse.addEventListener('schedule', (event) => {
           const parsedData = JSON.parse(event.data);
-          console.log(parsedData);
-          
           const res = parsedData.ScheduleWeek;
           localStorage.setItem('localScheduleJSON', JSON.stringify(res));
-          resolve(res); // Возвращаем данные
+          setError(null);
+          setScheduleWeek(res);
         });
 
         sse.onerror = (err) => {
@@ -21,16 +20,18 @@ export default class ScheduleServer {
           if (cachedData) {
             try {
               const parsedData = JSON.parse(cachedData);
-              resolve(parsedData); // Возвращаем кэшированные данные
+              setError(null);
+              setScheduleWeek(parsedData); // Возвращаем кэшированные данные
             } catch (parseErr) {
-              reject(new Error('Не удалось разобрать кэшированные данные: ' + parseErr));
+              setError('Невозможно разобрать кэшированные данные');
+              console.error('Не удалось разобрать кэшированные данные: ' + parseErr);
             }
           } else {
-            reject(new Error('Нет доступных кэшированных данных, и соединение не удалось'));
+            setError('Нет доступных кэшированных данных, и соединение не удалось');
           }
         };
       } catch (error) {
-        reject('Глобальная ошибка: ' + error); // Ловим глобальные ошибки
+        setError('Глобальная ошибка: ' + error); // Ловим глобальные ошибки
       }
     });
   }
