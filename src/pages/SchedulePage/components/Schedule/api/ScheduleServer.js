@@ -1,8 +1,10 @@
 export default class ScheduleServer {
   static async getWeek(setScheduleWeek, setError) {
-    return new Promise((resolve, reject) => {
+    return new Promise(() => {
       try {
         const sse = new EventSource('http://localhost:8080/schedule');
+        // const sse = new EventSource('http://172.24.1.201:8080/schedule');
+
 
         sse.onopen = () => console.log('>>> Connection opened!');
 
