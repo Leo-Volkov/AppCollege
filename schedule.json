@@ -4,120 +4,31 @@
       "day_number": 1,
       "ScheduleDay": [
         {
-          "group": "1ИСП9-54",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "1-ЭС9-15",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "1ИСП9-54",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-49",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-50",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-51",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-52",
-          "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
           "group": "2-ИСП9-53",
           "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            { "subject": "Основы электроники и электротехники", "teacher": "Исакова Е.П.", "classroom": "409" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
@@ -126,13 +37,29 @@
         {
           "group": "2-ИСП9-54",
           "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            { "subject": "Основы электроники и электротехники", "teacher": "Исакова Е.П.", "classroom": "409" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
@@ -141,13 +68,29 @@
         {
           "group": "2-ИСП9-55",
           "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Введение в  материаловедение", "teacher": "Ларев И.П.", "classroom": "125" },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            {
+              "subject": "Выполнение работ Электромонтажник по освещению и осветительным сетям",
+              "teacher": "Шевчик.А.А., Сафонов.Н.П.",
+              "classroom": "229/228"
+            },
+            { "subject": "Основы электроники и электротехники", "teacher": "Исакова Е.П.", "classroom": "409" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
@@ -159,153 +102,363 @@
       "day_number": 2,
       "ScheduleDay": [
         {
-          "group": "2-ИСП9-46",
+          "group": "1ИСП9-54 ",
           "subjects": [
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-47",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-48",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-49",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-50",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
+            { "subject": "Проектный менеджмент в разработке и сопровождении программного обеспечения", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "Проектный менеджмент в разработке и сопровождении программного обеспечения", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "Математические основы алгоритмизации", "teacher": "Харламов Д.С.", "classroom": "224" },
+            { "subject": "Математические основы алгоритмизации", "teacher": "Харламов Д.С.", "classroom": "224" },
+            { "subject": "Моделирование физических процессов в приложениях", "teacher": "Котусова А.В", "classroom": "404" },
+            { "subject": "Моделирование физических процессов в приложениях", "teacher": "Котусова А.В", "classroom": "404" },
+            { "subject": "Визуальное программирование", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Визуальное программирование", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2-ИСП9-51",
+          "group": "1-ЭС9-15 ",
           "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
+            { "subject": "Основы технического черчения", "teacher": "Щеулов С.В.", "classroom": "228" },
+            { "subject": "Основы технического черчения", "teacher": "Щеулов С.В.", "classroom": "228" },
+            { "subject": "Безопасность труда на предприятиях отрасли", "teacher": "Медведев М.А.", "classroom": "223" },
+            { "subject": "Безопасность труда на предприятиях отрасли", "teacher": "Медведев М.А.", "classroom": "223" },
+            { "subject": "Основы электроники и электротехники", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Основы электроники и электротехники", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2-ИСП9-52",
+          "group": "1-ИСП11-44",
           "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
+            { "subject": "Основы алгоритмизации и программирования", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Основы алгоритмизации и программирования", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Драгуновская А.Ю", "classroom": "407" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Драгуновская А.Ю", "classroom": "407" },
+            { "subject": "Основы проектирования баз данных", "teacher": "Харламов Д.С.", "classroom": "224" },
+            { "subject": "Основы проектирования баз данных", "teacher": "Харламов Д.С.", "classroom": "224" },
+            { "subject": "Архитектура аппаратных средств", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Архитектура аппаратных средств", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2-ИСП9-53",
+          "group": "1-ИСП11-43",
           "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
+            { "subject": "Основы алгоритмизации и программирования", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Основы алгоритмизации и программирования", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Полковникова Н.В.", "classroom": "406" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Полковникова Н.В.", "classroom": "406" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2-ИСП9-54",
+          "group": "1-ЭС11-11",
           "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю.", "classroom": "407" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю.", "classroom": "407" },
+            { "subject": "Электротехника и электроника", "teacher": "Филиппов В.М.", "classroom": "405" },
+            { "subject": "Электротехника и электроника", "teacher": "Филиппов В.М.", "classroom": "405" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
+            { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2-ИСП9-55",
+          "group": "1-ЭС11-12",
           "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
+            { "subject": "Инженерная графика", "teacher": "Качан А.И", "classroom": "" },
+            { "subject": "Инженерная графика", "teacher": "Качан А.И", "classroom": "" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "125" },
+            { "subject": "Метрология, стандартизация и сертификация", "teacher": "Сингаевский С.В.", "classroom": "408" },
+            { "subject": "Метрология, стандартизация и сертификация", "teacher": "Сингаевский С.В.", "classroom": "408" },
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП9-45 ",
+          "subjects": [
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП9-46",
+          "subjects": [
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Разработка серверной части веб-приложения", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП9-49ВБ ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
+            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
+            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
+            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП9-50ВБ",
+          "subjects": [
+            { "subject": "Системное программирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Системное программирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Архитектура аппаратных средств", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Архитектура аппаратных средств", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Разработка программных модулей", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка программных модулей", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Основы проектирования баз данных", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Основы проектирования баз данных", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП11-38",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Дискретная математика с элементами математической логики", "teacher": "Изотова А.А.", "classroom": "406" },
+            { "subject": "Дискретная математика с элементами математической логики", "teacher": "Изотова А.А.", "classroom": "406" },
+            { "subject": "Проектирование и дизайн информационных систем", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Проектирование и дизайн информационных систем", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ИСП11-39",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Дискретная математика с элементами математической логики", "teacher": "Изотова А.А.", "classroom": "406" },
+            { "subject": "Дискретная математика с элементами математической логики", "teacher": "Изотова А.А.", "classroom": "406" },
+            { "subject": "Менеджмент в  профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "" },
+            { "subject": "Менеджмент в  профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС11-10",
+          "subjects": [
+            { "subject": "Устройство и техническое обслуживание электрических сетей", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Устройство и техническое обслуживание электрических сетей", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Устройство и техническое обслуживание электрический подстанций", "teacher": "Бобылева Г.А.", "classroom": "222" },
+            { "subject": "Устройство и техническое обслуживание электрический подстанций", "teacher": "Бобылева Г.А.", "classroom": "222" },
+            { "subject": "Технология выполнения работ по профессии", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Технология выполнения работ по профессии", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС9-13",
+          "subjects": [
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовые основы профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Электротехника и электроника", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Электротехника и электроника", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Инженерная графика", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Инженерная графика", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС9-14 ",
+          "subjects": [
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Метрология, стандартизация и сертификация", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Метрология, стандартизация и сертификация", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП9-29",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Проектирование и разработка интерфейса пользователя", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "Проектирование и разработка интерфейса пользователя", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В", "classroom": "с/з" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Теория вероятностей и математическая статистика", "teacher": "Изотова АА.", "classroom": "" },
+            { "subject": "Теория вероятностей и математическая статистика", "teacher": "Изотова АА.", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП9-36ВБ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Компьютерные сети", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Компьютерные сети", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" }
+          ]
+        },
+        {
+          "group": "3ЭС9-12 ",
+          "subjects": [
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "Основы программирования", "teacher": "Щеулов С.В.", "classroom": "" },
+            { "subject": "Основы программирования", "teacher": "Щеулов С.В.", "classroom": "" },
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-29 ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Оптимизация веб-приложений", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Оптимизация веб-приложений", "teacher": "Харламов Д.С.", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-33ВБ ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Драгуновская А.Ю", "classroom": "" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Драгуновская А.Ю", "classroom": "" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-34ВБ",
+          "subjects": [
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Экономика отрасли", "teacher": "Филиппов В.М.", "classroom": "" },
+            { "subject": "Экономика отрасли", "teacher": "Филиппов В.М.", "classroom": "" },
+            { "subject": "Экономика отрасли", "teacher": "Филиппов В.М.\"", "classroom": "" },
+            { "subject": "Экономика отрасли", "teacher": "Филиппов В.М.\"", "classroom": "" },
+            { "subject": "Обеспечение безопасности веб-приложений", "teacher": "Дрыгваль В.С.", "classroom": "" },
+            { "subject": "Обеспечение безопасности веб-приложений", "teacher": "Дрыгваль В.С.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ТОРД11-2 ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Технологические процессы технического обслуживания и ремонта автомобилей", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Технологические процессы технического обслуживания и ремонта автомобилей", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Организация работ по модернизации автотранспортных средств", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Организация работ по модернизации автотранспортных средств", "teacher": "Ларев И.П.", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ЭС11-9 ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Скопцова Н.И.", "classroom": "" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Скопцова Н.И.", "classroom": "" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Скопцова Н.И.", "classroom": "" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Скопцова Н.И.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "4ЭС9-11",
+          "subjects": [
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
           ]
         }
       ]
@@ -314,145 +467,10 @@
       "day_number": 3,
       "ScheduleDay": [
         {
-          "group": "2-ИСП9-46",
+          "group": "2-ИСП9-45",
           "subjects": [
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-47",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-48",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-49",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-50",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-51",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-52",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-53",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-54",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-55",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
@@ -469,145 +487,10 @@
       "day_number": 4,
       "ScheduleDay": [
         {
-          "group": "2-ИСП9-46",
+          "group": "2-ИСП9-45",
           "subjects": [
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-47",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-48",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-49",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-50",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-51",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-52",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-53",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-54",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-55",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
@@ -658,8 +541,8 @@
           "subjects": [
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "Разработка серверной и интерфейсной частей приложения", "teacher": "Котусова А.В.", "classroom": "" },
-            { "subject": "Разработка серверной и интерфейсной частей приложения", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Полковникова  Н.В.", "classroom": "" },
+            { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Полковникова  Н.В.", "classroom": "" },
             { "subject": "Элементы высшей математики", "teacher": "", "classroom": "" },
             { "subject": "Элементы высшей математики", "teacher": "", "classroom": "" },
             { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409a" },
@@ -705,8 +588,8 @@
             { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Драгуновская А.Ю.", "classroom": "407" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "210" },
-            { "subject": "Основы проектирования баз данных", "teacher": "Котусова А.В.", "classroom": "" },
-            { "subject": "Основы проектирования баз данных", "teacher": "Котусова А.В.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
@@ -722,14 +605,14 @@
             { "subject": "Физическая культура", "teacher": "Васюкова Г.С.", "classroom": "с/з" },
             { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
             { "subject": "Оператор электронно-вычислительных и вычислительных машин", "teacher": "Рогулин А.А.", "classroom": "309" },
-            { "subject": "Основы проектирования баз данных", "teacher": "Качан А.И.", "classroom": "" },
-            { "subject": "Основы проектирования баз данных", "teacher": "Качан А.И.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" }
           ]
         },
         {
-          "group": "2ИСП9-49",
+          "group": "2ИСП9-49ВБ ",
           "subjects": [
             { "subject": "Элементы высшей математики", "teacher": "", "classroom": "" },
             { "subject": "Элементы высшей математики", "teacher": "", "classroom": "" },
@@ -744,7 +627,7 @@
           ]
         },
         {
-          "group": "2ИСП9-50",
+          "group": "2ИСП9-50ВБ",
           "subjects": [
             { "subject": "Системное программирование", "teacher": "Дрыгваль В.С", "classroom": "" },
             { "subject": "Системное программирование", "teacher": "Дрыгваль В.С", "classroom": "" },
@@ -772,6 +655,217 @@
             { "subject": "Графический дизайн и проектирование", "teacher": "Рогулин А.А.", "classroom": "" },
             { "subject": "Графический дизайн и проектирование", "teacher": "Рогулин А.А.", "classroom": "" }
           ]
+        },
+        {
+          "group": "2ИСП11-39",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409а" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Графический дизайн и проектирование", "teacher": "Дрыгваль В.С.", "classroom": "305" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "с/з" },
+            { "subject": "Численные методы", "teacher": "Изотова А.А.", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "Изотова А.А.", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС11-10",
+          "subjects": [
+            {
+              "subject": "Релейная защита и автоматические системы управления устройствами электроснабжения",
+              "teacher": "Исакова Е.П.",
+              "classroom": "409"
+            },
+            {
+              "subject": "Релейная защита и автоматические системы управления устройствами электроснабжения",
+              "teacher": "Исакова Е.П.",
+              "classroom": "409"
+            },
+            {
+              "subject": "Релейная защита и автоматические системы управления устройствами электроснабжения",
+              "teacher": "Исакова Е.П.",
+              "classroom": "409"
+            },
+            {
+              "subject": "Релейная защита и автоматические системы управления устройствами электроснабжения",
+              "teacher": "Исакова Е.П.",
+              "classroom": "409"
+            },
+            { "subject": "Устройство и техническое обслуживание электрических сетей", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Устройство и техническое обслуживание электрических сетей", "teacher": "Исакова Е.П.", "classroom": "409" },
+            { "subject": "Устройство и техническое обслуживание электрический подстанций", "teacher": "Бобылева Г.А.", "classroom": "222" },
+            { "subject": "Устройство и техническое обслуживание электрический подстанций", "teacher": "Бобылева Г.А.", "classroom": "222" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС9-13",
+          "subjects": [
+            { "subject": "Инженерная графика", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Инженерная графика", "teacher": "Качан А.И.", "classroom": "304" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "2ЭС9-14 ",
+          "subjects": [
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "Математика", "teacher": "Обухова Т.В.", "classroom": "" },
+            { "subject": "Основы экономики", "teacher": "Филиппов В.М.", "classroom": "405" },
+            { "subject": "Основы экономики", "teacher": "Филиппов В.М.", "classroom": "405" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Техническая механика", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю.", "classroom": "" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП9-29",
+          "subjects": [
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Теория вероятностей и математическая статистика", "teacher": "Изотова АА.", "classroom": "" },
+            { "subject": "Теория вероятностей и математическая статистика", "teacher": "Изотова АА.", "classroom": "" },
+            { "subject": "Компьютерные сети", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "Компьютерные сети", "teacher": "Рогулин А.А.", "classroom": "309" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП9-36ВБ",
+          "subjects": [
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "Проектирование и дизайн информационных систем", "teacher": "Дрыгваль В.С", "classroom": "305" },
+            { "subject": "Проектирование и дизайн информационных систем", "teacher": "Дрыгваль В.С", "classroom": "305" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Разработка кода информационных систем", "teacher": "Клименко С.В.", "classroom": "306" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ЭС9-12 ",
+          "subjects": [
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Быков Д.В.", "classroom": "с/з" },
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "Электроснабжение электротехнического оборудования", "teacher": "Бобылева Г.А.", "classroom": "" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409a" },
+            { "subject": "Иностранный язык в профессиональной деятельности", "teacher": "Мягков А.Д.", "classroom": "409a" },
+            { "subject": "Электроснабжение электротехнологического оборудования", "teacher": "Борзилов В.Н.", "classroom": "" },
+            { "subject": "Электроснабжение электротехнологического оборудования", "teacher": "Борзилов В.Н.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-29 ",
+          "subjects": [
+            { "subject": "Технология выполнения работ", "teacher": "Рогулин А.А.", "classroom": "" },
+            { "subject": "Технология выполнения работ", "teacher": "Рогулин А.А.", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Тестирование информационных систем", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Тестирование информационных систем", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Обеспечение безопасности веб-приложений", "teacher": "Дрыгваль В.С.", "classroom": "" },
+            { "subject": "Обеспечение безопасности веб-приложений", "teacher": "Дрыгваль В.С.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-33ВБ ",
+          "subjects": [
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Менеджмент в  профессиональной деятельности", "teacher": "Филиппов В.М.", "classroom": "" },
+            { "subject": "Менеджмент в  профессиональной деятельности", "teacher": "Филиппов В.М.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ИСП11-34ВБ",
+          "subjects": [
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Проектирование и разработка веб-приложений", "teacher": "Джегюеде А.М.А.Э.", "classroom": "213а" },
+            { "subject": "Тестирование информационных систем", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Тестирование информационных систем", "teacher": "Харламов Д.С.", "classroom": "" },
+            { "subject": "Безопасность жизнедеятельности", "teacher": "Сингаевский С.В.", "classroom": "404" },
+            { "subject": "Безопасность жизнедеятельности", "teacher": "Сингаевский С.В.", "classroom": "404" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "Численные методы", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ТОРД11-2 ",
+          "subjects": [
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю", "classroom": "" },
+            { "subject": "Психология общения", "teacher": "Драгуновская А.Ю", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Правовое обеспечение профессиональной деятельности", "teacher": "Голубенко Н.С.", "classroom": "" },
+            { "subject": "Особенности конструкции", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "Особенности конструкции", "teacher": "Ларев И.П.", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "3ЭС11-9 ",
+          "subjects": [
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Физическая культура", "teacher": "Химин А.И.", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Химин А.И.", "classroom": "с/з" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
+        },
+        {
+          "group": "4ЭС9-11",
+          "subjects": [
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Бобылева Г.А", "classroom": "222" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Бобылева Г.А", "classroom": "222" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Аппаратура для ремонта и наладки устройств электроснабжения", "teacher": "Борзилов В.Н.", "classroom": "408" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Бобылева Г.А", "classroom": "222" },
+            { "subject": "Ремонт и наладка устройств электроснабжения", "teacher": "Бобылева Г.А", "classroom": "222" },
+            { "subject": "Физическая культура", "teacher": "Химин А.И.", "classroom": "с/з" },
+            { "subject": "Физическая культура", "teacher": "Химин А.И.", "classroom": "с/з" },
+            { "subject": "", "teacher": "", "classroom": "" },
+            { "subject": "", "teacher": "", "classroom": "" }
+          ]
         }
       ]
     },
@@ -779,145 +873,10 @@
       "day_number": 6,
       "ScheduleDay": [
         {
-          "group": "2-ИСП9-46",
+          "group": "2-ИСП9-45",
           "subjects": [
             { "subject": "", "teacher": "", "classroom": "" },
             { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-47",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-48",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-49",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-50",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-51",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-52",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-53",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-54",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "", "teacher": "", "classroom": "" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" }
-          ]
-        },
-        {
-          "group": "2-ИСП9-55",
-          "subjects": [
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
-            { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },
             { "subject": "История", "teacher": "Бабаханов Ш.Т.", "classroom": "206" },

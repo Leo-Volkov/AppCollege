@@ -1,3 +1,5 @@
+import scheduleJSON from '../../../../../../schedule.json'
+
 export default class ScheduleServer {
   static async getWeek(setScheduleWeek, setError) {
     return new Promise(() => {
@@ -18,10 +20,11 @@ export default class ScheduleServer {
 
         sse.onerror = (err) => {
           console.error('Error Server: ', err);
-          const cachedData = localStorage.getItem('localScheduleJSON');
+          // const cachedData = localStorage.getItem('localScheduleJSON');
+          const cachedData = scheduleJSON.ScheduleWeek
           if (cachedData) {
             try {
-              const parsedData = JSON.parse(cachedData);
+              const parsedData = cachedData;
               setError(null);
               setScheduleWeek(parsedData); // Возвращаем кэшированные данные
             } catch (parseErr) {
