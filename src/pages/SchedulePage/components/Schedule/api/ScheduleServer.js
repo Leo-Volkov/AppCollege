@@ -4,6 +4,7 @@ export default class ScheduleServer {
       try {
         const sse = new EventSource('http://localhost:8080/schedule');
         // const sse = new EventSource('http://172.24.1.201:8080/schedule');
+        // const sse = new EventSource('http://192.168.112.233:8080/schedule');
 
 
         sse.onopen = () => console.log('>>> Connection opened!');
