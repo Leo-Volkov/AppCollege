@@ -6,9 +6,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #fff;
+}
 
 /* Нормализация стилей */
 html {
   line-height: 1.15; /* Устраняет разрывы между строками */
-  -webkit-text-size-adjust: 100%; /* Запрещает изменение размера текста на мобильных устройствах */
 }
