@@ -25,6 +25,7 @@ export default class ScheduleServer {
           if (cachedData) {
             try {
               const parsedData = cachedData;
+              // const parsedData = JSON.parse(cachedData);
               setError(null);
               setScheduleWeek(parsedData); // Возвращаем кэшированные данные
             } catch (parseErr) {
