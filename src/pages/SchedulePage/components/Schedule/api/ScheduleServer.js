@@ -5,6 +5,7 @@ export default class ScheduleServer {
     return new Promise(() => {
       try {
         // const sse = new EventSource('http://localhost:8080/schedule');
+        
         const sse = new EventSource('http://172.24.1.202:8080/schedule');
 
 
