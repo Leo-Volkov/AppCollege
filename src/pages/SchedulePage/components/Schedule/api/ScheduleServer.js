@@ -20,12 +20,12 @@ export default class ScheduleServer {
 
         sse.onerror = (err) => {
           console.error('Error Server: ', err);
-          // const cachedData = localStorage.getItem('localScheduleJSON');
-          const cachedData = scheduleJSON.ScheduleWeek
+          const cachedData = localStorage.getItem('localScheduleJSON');
+          // const cachedData = scheduleJSON.ScheduleWeek
           if (cachedData) {
             try {
-              const parsedData = cachedData;
-              // const parsedData = JSON.parse(cachedData);
+              // const parsedData = cachedData;
+              const parsedData = JSON.parse(cachedData);
               setError(null);
               setScheduleWeek(parsedData); // Возвращаем кэшированные данные
             } catch (parseErr) {
