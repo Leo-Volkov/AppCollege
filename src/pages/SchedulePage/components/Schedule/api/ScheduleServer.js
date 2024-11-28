@@ -8,7 +8,7 @@ export default class ScheduleServer {
         const sse = new EventSource('http://172.24.1.202:8080/schedule');
 
 
-        sse.onopen = () => console.log('>>> Connection opened!');
+        sse.onopen = () => setError('>>> Connection opened!');
 
         sse.addEventListener('schedule', (event) => {
           const parsedData = JSON.parse(event.data);
