@@ -39,10 +39,10 @@ export function useTimetable() {
     const checkTime = () => {
       nowRef.current = new Date();
       const currentTime = nowRef.current.getHours() * 60 + nowRef.current.getMinutes();
-      // const currentTime = 1000; // Используем для тестирования
+      // const currentTime = 780; // Используем для тестирования
       
       timetableRef.current.forEach((lesson, index) => {
-        if (currentTime >= lesson.start_Lesson && currentTime <= lesson.end_Lesson) {
+        if (currentTime >= lesson.start_Lesson && currentTime < lesson.end_Lesson) {
           setCurrentLesson(index + 1);
           setNumBreak(null);
         } else if (currentTime > lesson.end_Lesson) {
